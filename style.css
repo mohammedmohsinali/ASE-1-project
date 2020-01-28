@@ -1,0 +1,102 @@
+html{
+	height: 100%
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.0s ease;
+}
+body{
+	/*background: url("bsg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+.navbar{
+	opacity: 0.8;
+	height: 70px;
+}
+a:hover{
+	background-color: black;
+	border-radius: 7px;
+	opacity: 0.7;
+
+}
+#travelx{
+	color:white;
+	font-weight: bold;
+
+}
+#signup{
+	margin-left: 1300px;
+	color:white;
+}
+#signin{
+	margin-left: 30px;
+	color:white;
+}
+#contact{
+	margin-left: 30px;
+	color:white;
+}
+#about{
+	margin-left: 30px;
+	color:white;
+}
+.mySlides {display:none;}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+#content{
+	text-align: center;
+	border: 2px solid gray;
+	/*opacity: 0.7;*/
+	width: 50%;
+	border-radius: 25px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 25%;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.4);
+
+
+
+}
+body .contain{
+	background-position: 
+	width: 100%;
+	background-size: cover;
+	background-color: black;
+
+
+}
+#btn{
+	margin-top: 50px;
+	opacity: 0.7;
+	background-color: black;
+}
+
+#slide{
+	width: 100%;
+}
+
+
+.carousel-inner{
+	height: 500px;
+}
